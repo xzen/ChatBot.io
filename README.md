@@ -1,2 +1,7 @@
-# chat-bot-io
-Simple chat bot with a primary AI. 
+# ChatBot.io
+
+## Introduction
+
+## How to use ?
+
+## Conclusion
