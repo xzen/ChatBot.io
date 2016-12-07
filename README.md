@@ -1,6 +1,8 @@
 # ChatBot.io
 Version : 0.0.1
+
 Auhtors : VIMARD Cyril
+
 Js-version : ES5
 
 ## Introduction
