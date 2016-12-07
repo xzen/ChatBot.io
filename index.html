@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang='fr'>
+  <head>
+    <title>ChatBot.io</title>
+    <!-- Google : Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+
+    <!-- ChatBot.io : Css -->
+    <link rel="stylesheet" href="./css/chat-bot.css">
+  </head>
+  <body>
+    <!-- ChatBot.io Dom -->
+    <div class="mdl-grid mdl-reset">
+      <!-- Header Menu -->
+      <div class="mdl-cell mdl-cell--12-col mdl-reset">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+         <header style="background:#0f9d58;" class="mdl-layout__header">
+           <div class="mdl-layout__header-row">
+             <!-- Account Name -->
+             <span class="chat-bot-login mdl-layout-title">Tyrion Lannister</span>
+           </div>
+         </header>
+         <!-- Content Menu -->
+         <div class="mdl-layout__drawer">
+           <span class="mdl-layout-title">ChatBot.io</span>
+         </div>
+         <!-- Content Chat -->
+         <main class="mdl-layout__content">
+           <div class="mdl-reset mdl-grid">
+              <!-- List -->
+              <div class="chat-bot-contacts-list-content mdl-reset mdl-cell mdl-cell--3-col">
+                <div class="chat-bot-contacts-list">
+                  <!-- Contact List -->
+                  <ul class="mdl-reset">
+                  </ul>
+                </div>
+              </div>
+              <!-- Content Chat -->
+              <div class="mdl-cell mdl-cell--9-col">
+                <div class="mdl-grid">
+                  <!-- Messages -->
+                  <div class="chat-bot-messages-content mdl-cell mdl-cell--12-col">
+                  </div>
+                  <!-- Input Response -->
+                  <div class="chat-bot-send-content mdl-cell mdl-cell--12-col">
+                    <input class="chat-bot-send-input" type="text" placeholder="Envoyer un message" />
+                  </div>
+                </div>
+              </div>
+            </div>
+         </main>
+        </div>
+      </div>
+    </div>
+
+    <!-- Google : Material Design Js Lite  -->
+    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+    <!-- Bot.io -->
+    <script src="lib/bot.io.js"></script>
+    <!-- Chat.io -->
+    <script src="lib/chat.io.js"></script>
+  </body>
+</html>

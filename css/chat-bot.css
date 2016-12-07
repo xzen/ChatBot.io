@@ -1,0 +1,74 @@
+.mdl-reset {
+  padding: 0px;
+  margin: 0px;
+}
+
+.chat-bot-contacts-list-content {
+  background: #efefef;
+  height: 3000px;
+}
+
+.chat-bot-contacts-list {
+  position: fixed;
+}
+
+.chat-bot-send-content {
+  position: fixed;
+  bottom: -10px;
+  background: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.chat-bot-send-input {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  padding: 11px 0px 11px 11px;
+  outline: none;
+  width: 100%;
+}
+
+.chat-bot-contact-card {
+  cursor: pointer;
+}
+
+.chat-bot-contact-card:hover {
+  cursor: pointer;
+  background: #dddddd;
+}
+
+.chat-bot-message-content-receive {
+  float: left;
+  width: 100%;
+}
+
+.chat-bot-buble-message-receive {
+  border-radius: 0px 8px 8px 8px;
+  padding:12px 10px 10px 10px;
+  background: #e8e8e8;
+  width:auto;
+  max-width:50%;
+}
+
+.chat-bot-message-content-send {
+  float: right;
+  max-width: 50%;
+}
+
+.chat-bot-buble-message-send {
+  border-radius: 8px 0px 8px 8px;
+  padding:15px 10px 15px 10px;
+  background: #e8e8e8;
+  width:auto;
+  max-width:100%;
+}
+
+.chat-bot-buble-message-legend {
+ margin: 5px 0px 0px 10px;
+ line-height:0px;
+ font-size:10px;
+}
+
+.spacer {
+  clear: both;
+}
